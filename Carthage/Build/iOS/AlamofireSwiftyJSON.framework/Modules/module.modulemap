@@ -1,4 +1,0 @@
-framework module AlamofireSwiftyJSON {
-    header "AlamofireSwiftyJSON-Swift.h"
-    requires objc
-}

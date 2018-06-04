@@ -1,1 +1,5 @@
-github "rs/SDWebImage" "4.3.3"
+github "Alamofire/Alamofire" "4.7.2"
+github "CodeEagle/DGElasticPullToRefresh" "2.0.0"
+github "SVProgressHUD/SVProgressHUD" "2.2.5"
+github "SwiftyJSON/SwiftyJSON" "4.1.0"
+github "rs/SDWebImage" "4.4.0"
