@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993248DC20BC8FDD00226CF9 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993248DB20BC8FDD00226CF9 /* SVProgressHUD.framework */; };
+		993248DD20BC8FDD00226CF9 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 993248DB20BC8FDD00226CF9 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9947782A20BCC7720019B973 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9947782920BCC7720019B973 /* SDWebImage.framework */; };
+		9947782B20BCC7720019B973 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9947782920BCC7720019B973 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9961097520B35F1E00E27751 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9961097420B35F1D00E27751 /* SwiftyJSON.framework */; };
+		9961097620B35F1E00E27751 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9961097420B35F1D00E27751 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9970BDF720AF635E00F8EE22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9970BDF620AF635E00F8EE22 /* Images.xcassets */; };
 		998CF77320A7A40D002D5C1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CF77220A7A40D002D5C1D /* AppDelegate.swift */; };
-		998CF77520A7A40D002D5C1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CF77420A7A40D002D5C1D /* ViewController.swift */; };
 		998CF77820A7A40D002D5C1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998CF77620A7A40D002D5C1D /* Main.storyboard */; };
-		998CF77A20A7A40F002D5C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998CF77920A7A40F002D5C1D /* Assets.xcassets */; };
 		998CF77D20A7A40F002D5C1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998CF77B20A7A40F002D5C1D /* LaunchScreen.storyboard */; };
 		998CF78820A7A40F002D5C1D /* GitConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CF78720A7A40F002D5C1D /* GitConnectTests.swift */; };
 		998CF79320A7A40F002D5C1D /* GitConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CF79220A7A40F002D5C1D /* GitConnectUITests.swift */; };
+		99A6F7B620B71AF400E0FADD /* DGElasticPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A6F7B420B71AF300E0FADD /* DGElasticPullToRefresh.framework */; };
+		99A6F7B720B71AF400E0FADD /* DGElasticPullToRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99A6F7B420B71AF300E0FADD /* DGElasticPullToRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		99C253C020B301C00015521D /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 99C253BF20B301C00015521D /* Cartfile */; };
+		99C253CF20B325E20015521D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C253CD20B325510015521D /* Alamofire.framework */; };
+		99C253D020B325E20015521D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99C253CD20B325510015521D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		99E6AF8E20BD7AB1007F3700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6AF8D20BD7AB1007F3700 /* ViewController.swift */; };
+		99E6AF9220BD7CEF007F3700 /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6AF9120BD7CEF007F3700 /* CellController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,12 +45,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		99C253D120B325E20015521D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9947782B20BCC7720019B973 /* SDWebImage.framework in Embed Frameworks */,
+				9961097620B35F1E00E27751 /* SwiftyJSON.framework in Embed Frameworks */,
+				99A6F7B720B71AF400E0FADD /* DGElasticPullToRefresh.framework in Embed Frameworks */,
+				993248DD20BC8FDD00226CF9 /* SVProgressHUD.framework in Embed Frameworks */,
+				99C253D020B325E20015521D /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		993248DB20BC8FDD00226CF9 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		9947782920BCC7720019B973 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		9947782C20BCC8100019B973 /* GitConnect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitConnect-Bridging-Header.h"; sourceTree = "<group>"; };
+		9961097420B35F1D00E27751 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		9970BDF620AF635E00F8EE22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Images.xcassets/Images.xcassets; sourceTree = "<group>"; };
 		998CF76F20A7A40D002D5C1D /* GitConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		998CF77220A7A40D002D5C1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		998CF77420A7A40D002D5C1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		998CF77720A7A40D002D5C1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		998CF77920A7A40F002D5C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		998CF77C20A7A40F002D5C1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		998CF77E20A7A40F002D5C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		998CF78320A7A40F002D5C1D /* GitConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +80,13 @@
 		998CF78E20A7A40F002D5C1D /* GitConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		998CF79220A7A40F002D5C1D /* GitConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitConnectUITests.swift; sourceTree = "<group>"; };
 		998CF79420A7A40F002D5C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A6F7B420B71AF300E0FADD /* DGElasticPullToRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DGElasticPullToRefresh.framework; path = Carthage/Build/iOS/DGElasticPullToRefresh.framework; sourceTree = "<group>"; };
+		99C253BF20B301C00015521D /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		99C253C920B324D90015521D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = GitConnect/Alamofire.framework; sourceTree = "<group>"; };
+		99C253CB20B3254A0015521D /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		99C253CD20B325510015521D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		99E6AF8D20BD7AB1007F3700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99E6AF9120BD7CEF007F3700 /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9947782A20BCC7720019B973 /* SDWebImage.framework in Frameworks */,
+				9961097520B35F1E00E27751 /* SwiftyJSON.framework in Frameworks */,
+				99A6F7B620B71AF400E0FADD /* DGElasticPullToRefresh.framework in Frameworks */,
+				993248DC20BC8FDD00226CF9 /* SVProgressHUD.framework in Frameworks */,
+				99C253CF20B325E20015521D /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +122,16 @@
 		998CF76620A7A40D002D5C1D = {
 			isa = PBXGroup;
 			children = (
+				9947782920BCC7720019B973 /* SDWebImage.framework */,
+				993248DB20BC8FDD00226CF9 /* SVProgressHUD.framework */,
+				99A6F7B420B71AF300E0FADD /* DGElasticPullToRefresh.framework */,
+				9961097420B35F1D00E27751 /* SwiftyJSON.framework */,
+				99C253BF20B301C00015521D /* Cartfile */,
 				998CF77120A7A40D002D5C1D /* GitConnect */,
 				998CF78620A7A40F002D5C1D /* GitConnectTests */,
 				998CF79120A7A40F002D5C1D /* GitConnectUITests */,
 				998CF77020A7A40D002D5C1D /* Products */,
+				99C253C820B324D90015521D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +148,14 @@
 		998CF77120A7A40D002D5C1D /* GitConnect */ = {
 			isa = PBXGroup;
 			children = (
-				998CF77220A7A40D002D5C1D /* AppDelegate.swift */,
-				998CF77420A7A40D002D5C1D /* ViewController.swift */,
+				99E6AF8D20BD7AB1007F3700 /* ViewController.swift */,
+				99E6AF9120BD7CEF007F3700 /* CellController.swift */,
 				998CF77620A7A40D002D5C1D /* Main.storyboard */,
-				998CF77920A7A40F002D5C1D /* Assets.xcassets */,
-				998CF77B20A7A40F002D5C1D /* LaunchScreen.storyboard */,
+				9970BDF620AF635E00F8EE22 /* Images.xcassets */,
+				9947782C20BCC8100019B973 /* GitConnect-Bridging-Header.h */,
+				998CF77220A7A40D002D5C1D /* AppDelegate.swift */,
 				998CF77E20A7A40F002D5C1D /* Info.plist */,
+				998CF77B20A7A40F002D5C1D /* LaunchScreen.storyboard */,
 			);
 			path = GitConnect;
 			sourceTree = "<group>";
@@ -125,6 +178,16 @@
 			path = GitConnectUITests;
 			sourceTree = "<group>";
 		};
+		99C253C820B324D90015521D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99C253CD20B325510015521D /* Alamofire.framework */,
+				99C253CB20B3254A0015521D /* Alamofire.framework.dSYM */,
+				99C253C920B324D90015521D /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +198,7 @@
 				998CF76B20A7A40D002D5C1D /* Sources */,
 				998CF76C20A7A40D002D5C1D /* Frameworks */,
 				998CF76D20A7A40D002D5C1D /* Resources */,
+				99C253D120B325E20015521D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +257,7 @@
 				TargetAttributes = {
 					998CF76E20A7A40D002D5C1D = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					998CF78220A7A40F002D5C1D = {
 						CreatedOnToolsVersion = 9.3;
@@ -229,8 +294,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C253C020B301C00015521D /* Cartfile in Resources */,
+				9970BDF720AF635E00F8EE22 /* Images.xcassets in Resources */,
 				998CF77D20A7A40F002D5C1D /* LaunchScreen.storyboard in Resources */,
-				998CF77A20A7A40F002D5C1D /* Assets.xcassets in Resources */,
 				998CF77820A7A40D002D5C1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +322,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				998CF77520A7A40D002D5C1D /* ViewController.swift in Sources */,
+				99E6AF8E20BD7AB1007F3700 /* ViewController.swift in Sources */,
 				998CF77320A7A40D002D5C1D /* AppDelegate.swift in Sources */,
+				99E6AF9220BD7CEF007F3700 /* CellController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +497,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5HH6HC728;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/GitConnect",
+				);
 				INFOPLIST_FILE = GitConnect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -439,6 +512,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Learning.GitConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GitConnect/GitConnect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,8 +523,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5HH6HC728;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/GitConnect",
+				);
 				INFOPLIST_FILE = GitConnect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +538,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Learning.GitConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GitConnect/GitConnect-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

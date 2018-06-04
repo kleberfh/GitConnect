@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "2.0.0",
+  "iOS" : [
+    {
+      "name" : "DGElasticPullToRefresh",
+      "hash" : "d20ec03848931c61759653ea0ebb1f68a0564408ed528661575ea1fe8e33dcd5"
+    }
+  ]
+}
